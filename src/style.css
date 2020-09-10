@@ -1,0 +1,19 @@
+*{
+    font-family: 'Roboto', sans-serif;
+}
+
+
+.list-portfolio-margin {
+    margin-right: 120px;    
+} 
+
+.name-span{
+	margin-top: 10px;
+
+}
+
+.about-side-picture {
+  position: absolute;
+  z-index: -1;
+  height: 350px;
+}

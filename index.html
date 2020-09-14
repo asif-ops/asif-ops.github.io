@@ -10,12 +10,14 @@
     <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@1,300&display=swap" rel="stylesheet">
     <!--custom css-->
     <link rel="stylesheet" href="src\style.css"> 
+    <!--w3dchool css -->
+    <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
     <title>boostrap</title>
   </head>
   <body>
    <!-- Header-------------------------------------------------------------------------->
    <section>
-    <nav class="navbar bg-success navbar-expand-md  navbar-light">
+    <nav class="navbar navbar-expand-md  navbar-light nav-bg-color">
       <!-- Brand -->
       <a class="navbar-brand" href="#">
         <img src="https://image.flaticon.com/icons/svg/867/867746.svg" alt="logo" style="width:35px">
@@ -30,13 +32,13 @@
       <div class="collapse navbar-collapse" id="collapsibleNavbar">
         <ul class="navbar-nav ml-auto nav-tabs">
           <li class="nav-item mr-4">
-            <a class="nav-link" href="#">About</a>
+            <a class="nav-link text-white" href="#">About</a>
           </li>
           <li class="nav-item mr-4">
-            <a class="nav-link" href="#">Resume</a>
+            <a class="nav-link text-white" href="#">Resume</a>
           </li>
-          <li class="nav-item list-portfolio-margin ">
-            <a class="nav-link" href="#">Portfolio</a>
+          <li class="nav-item list-portfolio-margin mr-4 ">
+            <a class="nav-link text-white" href="#">Portfolio</a>
           </li>
         </ul>
       </div>
@@ -45,17 +47,19 @@
  <!--------------About------------------------------------------------------------------>
    <section>
     <div id="about" class="about">
-        <div class="container">
-            <div class="row">
+        <div class="container-fluid p-0 ">
+            <div class="row no-gutters">
                   <div class="col-md-12 ">
                      <!--<img class="rounded mt-1  mr-5 pr-5 rounded img-fluid  about-side-picture" src="src/pictures/about_side_picture2.JPG" alt="side picture"> -->
-                      <div class="text-right">
-                           <h4><span class="badge badge-pill badge-success mt-5 ">Md <emphsis>Asif</emphsis> Hasan Riyad</span></h4>
-                          <h5 class="job-title "><span class="badge badge-pill badge-info">TechOps</span></h5>
+                      <div class="text-center">
+                        <div class="invisible">invisible row </div>
+                          <h2 class="text-dark">Hi, I'm Asif </h2>
+                          <h3 class="job-title ">TechOps</h3>
               
                           <a href="#contact" class="btn "><kbd>Why Recruit Me?</kbd></a>
                           
                           <a href="#portfolio" class="btn btn-border"><kbd>Explore more</kbd></a>
+                          <div class="invisible">invisible row</div>
                       </div>
                   </div>
               </div>

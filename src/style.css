@@ -2,18 +2,16 @@
     font-family: 'Roboto', sans-serif;
 }
 
+.container-fluid .row  {
+  max-width:100%;
+  background-image: linear-gradient(to bottom, rgb(250,215,189), rgba(83,81,80,0.4) );
+  /*linear-gradient(to right, rgb(0, 255, 213), rgb(255, 136, 0));*/
+}
 
-.list-portfolio-margin {
-    margin-right: 120px;    
+.nav-bg-color {
+	background-color: rgb(83,81,80);
+}
+
+.nav-link-color {
+	font
 } 
-
-.name-span{
-	margin-top: 10px;
-
-}
-
-.about-side-picture {
-  position: absolute;
-  z-index: -1;
-  height: 350px;
-}

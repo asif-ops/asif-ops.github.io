@@ -4,7 +4,7 @@
 
 .container-fluid .row  {
   max-width:100%;
-  background-image: linear-gradient(to bottom, rgb(250,215,189), rgba(83,81,80,0.4) );
+  /*background-image: linear-gradient(to bottom, rgb(250,215,189), rgba(83,81,80,0.4) );
   /*linear-gradient(to right, rgb(0, 255, 213), rgb(255, 136, 0));*/
 }
 
@@ -12,6 +12,16 @@
 	background-color: rgb(83,81,80);
 }
 
-.nav-link-color {
-	font
-} 
+.row-height {
+	height: 200px;
+}
+.about-bg {
+	/*background-image: linear-gradient(to bottom, rgb(250,215,189), rgba(83,81,80,0.4) );*/
+}
+
+.profile_pic {
+	display: flex;
+	float: left;
+	width: 100%
+	height: 25px;
+}
